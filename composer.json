@@ -1,0 +1,60 @@
+{
+    "name": "webisters/date",
+    "description": "Webisters Date Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "date",
+        "datetime"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/date",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/date/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/date",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-intl": "*",
+        "webisters/language": "*"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "webisters/coding-standard": "*",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Date\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Date\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
